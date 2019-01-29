@@ -1,0 +1,17 @@
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.csprojResolveAssemblyReference.cache
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.Form1.resources
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.Properties.Resources.resources
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.csproj.GenerateResource.Cache
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.csproj.CoreCompileInputs.cache
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\bin\Debug\prog2.exe.config
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\bin\Debug\prog2.exe
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\bin\Debug\prog2.pdb
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.exe
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.pdb
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.Form2.resources
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.Form3.resources
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.Form4.resources
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.Form5.resources
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.Form6.resources
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.Form7.resources
+C:\Users\7275982\Desktop\DB PROG 2\prog2\prog2\obj\Debug\prog2.Form8.resources

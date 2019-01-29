@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="views" targetNamespace="http://tempuri.org/views.xsd" xmlns:mstns="http://tempuri.org/views.xsd" xmlns="http://tempuri.org/views.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.prog2.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="compTableAdapter" GeneratorDataComponentClassName="compTableAdapter" Name="comp" UserDataComponentName="compTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="s7275982.dbo.comp" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CompName, EIN, addr, Engineers FROM dbo.comp</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CompName" DataSetColumn="CompName" />
+              <Mapping SourceColumn="EIN" DataSetColumn="EIN" />
+              <Mapping SourceColumn="addr" DataSetColumn="addr" />
+              <Mapping SourceColumn="Engineers" DataSetColumn="Engineers" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="views" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="views" msprop:Generator_UserDSName="views">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="comp" msprop:Generator_TableClassName="compDataTable" msprop:Generator_TableVarName="tablecomp" msprop:Generator_TablePropName="comp" msprop:Generator_RowDeletingName="compRowDeleting" msprop:Generator_RowChangingName="compRowChanging" msprop:Generator_RowEvHandlerName="compRowChangeEventHandler" msprop:Generator_RowDeletedName="compRowDeleted" msprop:Generator_UserTableName="comp" msprop:Generator_RowChangedName="compRowChanged" msprop:Generator_RowEvArgName="compRowChangeEvent" msprop:Generator_RowClassName="compRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CompName" msprop:Generator_ColumnVarNameInTable="columnCompName" msprop:Generator_ColumnPropNameInRow="CompName" msprop:Generator_ColumnPropNameInTable="CompNameColumn" msprop:Generator_UserColumnName="CompName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EIN" msprop:Generator_ColumnVarNameInTable="columnEIN" msprop:Generator_ColumnPropNameInRow="EIN" msprop:Generator_ColumnPropNameInTable="EINColumn" msprop:Generator_UserColumnName="EIN" type="xs:int" />
+              <xs:element name="addr" msprop:Generator_ColumnVarNameInTable="columnaddr" msprop:Generator_ColumnPropNameInRow="addr" msprop:Generator_ColumnPropNameInTable="addrColumn" msprop:Generator_UserColumnName="addr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Engineers" msprop:Generator_ColumnVarNameInTable="columnEngineers" msprop:Generator_ColumnPropNameInRow="Engineers" msprop:Generator_ColumnPropNameInTable="EngineersColumn" msprop:Generator_UserColumnName="Engineers" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:comp" />
+      <xs:field xpath="mstns:CompName" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
